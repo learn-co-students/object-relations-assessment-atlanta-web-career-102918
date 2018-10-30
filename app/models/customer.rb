@@ -9,4 +9,8 @@ class Customer
   def full_name
     "#{first_name} #{last_name}"
   end
+
+  def woof
+    puts "woof"
+  end
 end
